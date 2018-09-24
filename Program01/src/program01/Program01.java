@@ -21,7 +21,9 @@ public class Program01 {
         
         Scanner keyboard = new Scanner(System.in);
         
-        System.out.println("Please enter the temperature in celcius: ");
+        System.out.println("This program converts a temperature in Celcius to a temperature in Fahrenheit.");
+        
+        System.out.println("\nPlease enter the temperature in celcius: ");
         
         tempC = keyboard.nextDouble();
         
